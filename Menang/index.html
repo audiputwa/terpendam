@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hore Kamu Menang</title>
+  <meta name="description" content="Semangat beraktifitas ya sayang">
+  <meta name="author" content="Wafa Rifqi Anafin">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/efekteks.css">
+  <link rel="stylesheet" href="css/responsif.css">
+  <link rel="stylesheet" href="css/buciners.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</head>
+
+<body>
+  <div class="kontener2" id="kontener2">
+    <h1>Hore kamu menang sekarang coba klik tombol di bawah </h1>
+    <button class="tombol" id="tombol">Mulai Sekarang</button>
+    <footer><h5>FYI ini website kalo di buka pagi,siang,sore,malem itu isinya beda-beda, Ga percaya? Coba aja!</h5></footer>
+  </div>
+
+  <div class="kontener" id="kontener">
+    <div class="dalemnya_kontener">
+      <h1 class="judul_halaman">Aku</h1>
+      <a class="tombol_menu" onclick="klikMenu()"></a>
+      <section class="halaman1 dalemnya_halaman" onclick="PindahKeHalaman(0)">
+        <h1 class="judul_halaman">Hanya</h1>
+        <br>
+        <img src="gambar/pandacoklat.gif" alt="Web Bucin Html, Css, Js" class="gambar">
+        <br>
+        <div class="ucapan1">
+          <p class="isiucapan1">Kadang, yang terindah tak di ciptakan untuk di miliki. Cukup dipandangi dari jauh, lalu
+            syukuri bahwa ia ada di sana untuk di kagumi dalam diam
+          </p>
+        </div>
+      </section>
+      <section class="halaman2 dalemnya_halaman" onclick="PindahKeHalaman(1)">
+        <h1 class="judul_halaman">Dapat</h1>
+        <br>
+        <img src="gambar/pandahelo.gif" alt="Web Bucin Html, Css, Js" class="gambar">
+        <br>
+        <div class="ucapan2">
+          <p class="isiucapan2">Aku hanya bisa mengagumimu saja prihal memilikimu itu mungkin terlalu sulit.
+          </p>
+        </div>
+      </section>
+      <section class="halaman3 dalemnya_halaman" onclick="PindahKeHalaman(2)">
+        <h1 class="judul_halaman">Mengagumimu</h1>
+        <br>
+        <img src="gambar/pandaputih.gif" alt="Web Bucin Html, Css, Js" class="gambar">
+        <br>
+        <div class="ucapan3">
+          <p class="isiucapan3">Satu-satunya langit yang tak bisa kulukis, dan hanya bisa kukagumi ialah langit di kedua bola matamu.</p>
+        </div>
+      </section>
+      <section class="halaman4 dalemnya_halaman" onclick="PindahKeHalaman(3)">
+        <h1 class="judul_halaman">Heyyy</h1>
+        <h1 id="waktu"></h1>
+        <script type="text/javascript">
+          document.write("<center>");
+          var hari = new Date();
+          var jam = hari.getHours();
+          if (jam >= 0 && jam < 10) {
+            document.write(
+              "<h1 class='ucapan'>Selamat Pagi!</h1><p class='isiucapan'>hey, take care ya semoga hal-hal baik selalu beriringan dengan mu <br> teruslah tumbuh, aku akan melihatmu berproses dengan jarak yang paling jauh <br> Aku akan selalu jadi orang yang paling bangga dengan setiap pencapaian yang kau dapat dari prosesmu <br> semoga tuhan selalu melindungi senyumanmu <br> Aku adalah orang yang selalu senang melihatmu baik-baik saja <br> wish you hapines<br> i'm always support you! ✨<p>"
+            );
+          } else if (jam == 11 && jam <= 15 ) {
+            document.write(
+              "<h1 class='ucapan'>Selamat Siang!</h1><p class='isiucapan'>Hayyy, seseorang  yanghannya bisa ku lihat dari kejauhan, seseorang yang aku cintai tanpa adanya komunikasi, seseorang yang membuat ku jatuh cinta sejauh-jauhnya, seseorang yang mengajarkanku bahwa cinta tak harus memiliki. <br> Terimasih orang yang hanya dapat kukagumi tanpa bisa memiliki. <p>"
+            );
+          } else if (jam == 16 && jam <= 19) {
+            document.write(
+              "<h1 class='ucapan'>Selamat Sore!</h1><p class='isiucapan'>Kau tak perlu tau betapa aku mencintaimu, biarlah ini menjadi rahasiaku  <br> Tatapanmu kala itu masih membekas di bayanganku,Suara indah mu masih terdengar sangat merdu ditelingaku.  <br> Aku rindu dirimu saat itu, saat kau menatapku, saat kau memujiku  <br> Hatiku yang menyukaimu, biarlah hanya menjadi milikku, rasa rindu yang kini menggebu biarlah menjadi milikku.  <br> Kini aku bisa mencintai dirimu, meski tanpa hadirnya dirimu.  <p>"
+            );
+          } else {
+            document.write(
+              "<h1 class='ucapan'>Selamat Malam!</h1><p class='isiucapan'>Aku ingin melihat kamu memenangkan segala hal dalam hidup kamu, aku ingin kamu menggapai semua mimpimu, aku ingin melihat segala usaha yang selalu kamu usahakan membuahkan hasil, aku mau kamu berhasil. <br> Aku penggemar utamamu, selalu menjadi pendukung utama untuk kamu, aku selalu berdoa untuk semua kelancaran dan hal baik di hidup kamu. <br> Aku selalu bangga atas semua pencapain kamu dan aku akan berada disisimu disetiap langkahmu walau dari jauh dan doaku selalu menyertaimu, kamu akan selalu menjadi yang terhebat <p>"
+            );
+          }
+          document.write("</center>");
+        </script>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+  <script>
+    document.getElementById("waktu").innerHTML = formatAMPM();
+
+    function formatAMPM() {
+      var waktu = new Date(),
+        menit = waktu.getMinutes().toString().length == 1 ? '0' + waktu.getMinutes() : waktu.getMinutes(),
+        jam = waktu.getHours().toString().length == 1 ? '0' + waktu.getHours() : waktu.getHours(),
+        ampm = waktu.getHours() >= 12 ? 'PM' : 'AM',
+        bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober',
+          'November', 'Desember'
+        ],
+        hari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+      return '<h1 class="ml1"><span class="text-wrapper"><span class="line line1"></span><span class="letters">' + hari[
+          waktu.getDay()] +
+        ', ' + waktu.getDate() + ' ' + bulan[waktu.getMonth()] +
+        ' ' + waktu.getFullYear() + '</span><span class="line line2"></span></span></h1><p class="ml2"> ' + jam + ':' +
+        menit + ' ' + ampm + ' </p>';
+
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      var audio = new Audio('audio/music1.mp3');
+      $("#tombol").click(function () {
+        $("#kontener2").fadeOut();
+        $("#kontener").fadeIn("4000");
+        audio.play();
+      });
+    });
+  </script>
+  <script>
+    var textWrapper = document.querySelector('.ml1 .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.ml1 .letter',
+        scale: [0.3, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 600,
+        delay: (el, i) => 70 * (i + 1)
+      }).add({
+        targets: '.ml1 .line',
+        scaleX: [0, 1],
+        opacity: [0.5, 1],
+        easing: "easeOutExpo",
+        duration: 700,
+        offset: '-=875',
+        delay: (el, i, l) => 80 * (l - i)
+      }).add({
+        targets: '.ml1',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+  <script>
+    var textWrapper = document.querySelector('.ml2');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.ml2 .letter',
+        scale: [4, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: 1400
+      }).add({
+        targets: '.ml2',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+</body>
+
+</html>
