@@ -25,36 +25,33 @@
 
   <div class="kontener" id="kontener">
     <div class="dalemnya_kontener">
-      <h1 class="judul_halaman">Aku</h1>
+      <h1 class="judul_halaman">Dari aku</h1>
       <a class="tombol_menu" onclick="klikMenu()"></a>
       <section class="halaman1 dalemnya_halaman" onclick="PindahKeHalaman(0)">
-        <h1 class="judul_halaman">Hanya</h1>
+        <h1 class="judul_halaman">1</h1>
         <br>
         <img src="gambar/pandacoklat.gif" alt="Web Bucin Html, Css, Js" class="gambar">
         <br>
         <div class="ucapan1">
-          <p class="isiucapan1">Kadang, yang terindah tak di ciptakan untuk di miliki. Cukup dipandangi dari jauh, lalu
-            syukuri bahwa ia ada di sana untuk di kagumi dalam diam
-          </p>
+          <p class="isiucapan1">terimakasih atas semua waktumu yang telah kamu bagikan utukku kemarin dan berbahagia lah dengan dengan pilihan barumu,</p>
         </div>
       </section>
       <section class="halaman2 dalemnya_halaman" onclick="PindahKeHalaman(1)">
-        <h1 class="judul_halaman">Dapat</h1>
+        <h1 class="judul_halaman">2</h1>
         <br>
-        <img src="gambar/pandahelo.gif" alt="Web Bucin Html, Css, Js" class="gambar">
+        <img src="gambar/nimasi.gif" alt="Web Bucin Html, Css, Js" class="gambar">
         <br>
         <div class="ucapan2">
-          <p class="isiucapan2">Aku hanya bisa mengagumimu saja prihal memilikimu itu mungkin terlalu sulit.
-          </p>
+          <p class="isiucapan2">Prihal tentangku jangan pikirkan, aku akan teteap berdiri di sini, menlanjutkan hidupku tanpa berdampingan dengan siapapun ntah sampai kapan,</p>
         </div>
       </section>
       <section class="halaman3 dalemnya_halaman" onclick="PindahKeHalaman(2)">
-        <h1 class="judul_halaman">Mengagumimu</h1>
+        <h1 class="judul_halaman">3</h1>
         <br>
         <img src="gambar/pandaputih.gif" alt="Web Bucin Html, Css, Js" class="gambar">
         <br>
         <div class="ucapan3">
-          <p class="isiucapan3">Satu-satunya langit yang tak bisa kulukis, dan hanya bisa kukagumi ialah langit di kedua bola matamu.</p>
+          <p class="isiucapan3">For the last time I love U</p>
         </div>
       </section>
       <section class="halaman4 dalemnya_halaman" onclick="PindahKeHalaman(3)">
@@ -64,23 +61,26 @@
           document.write("<center>");
           var hari = new Date();
           var jam = hari.getHours();
-          if (jam >= 0 && jam < 10) {
+          if (jam >= 4 && jam < 10) {
             document.write(
-              "<h1 class='ucapan'>Selamat Pagi!</h1><p class='isiucapan'>hey, take care ya semoga hal-hal baik selalu beriringan denganmu. teruslah tumbuh, aku akan melihatmu berproses dengan jarak yang paling jauh. Aku akan selalu jadi orang yang paling bangga dengan setiap pencapaian yang kau dapat dari prosesmu, semoga tuhan selalu melindungi senyumanmu. Aku adalah orang yang selalu senang melihatmu baik-baik saja. <br> wish you hapines<br> i'm always support you! ✨<p>"
+              "<h1 class='ucapan'>Selamat Pagi!</h1><p class='isiucapan'>Jangan ceritakan apapun tentangku pada orang barumu, berbahagialah tanpa melibatkan diriku. Prihal aku tidak usah di pikirkan itu urusanku kamu cukup fokus dengang orang barumu aku di sini baik-baik saja<p>"
             );
           } else if (jam == 11 && jam <= 15 ) {
             document.write(
-              "<h1 class='ucapan'>Selamat Siang!</h1><p class='isiucapan'>Hayyy, seseorang  yanghannya bisa ku lihat dari kejauhan, seseorang yang aku cintai tanpa adanya komunikasi, seseorang yang membuat ku jatuh cinta sejauh-jauhnya, seseorang yang mengajarkanku bahwa cinta tak harus memiliki. Terimakasih orang yang hanya dapat kukagumi tanpa bisa memiliki. <p>"
+              "<h1 class='ucapan'>Selamat Siang!</h1><p class='isiucapan'>Heyyy, kamu tau ga setelah melepasmu, ada lagi satu fase yang lebih sulit, yaitu menahan rasa ingin tau bagaimana kabarmu<p>"
             );
-          } else if (jam == 16 && jam <= 19) {
+          } else if (jam == 16 && jam <= 18) {
             document.write(
-              "<h1 class='ucapan'>Selamat Sore!</h1><p class='isiucapan'>Kau tak perlu tau betapa aku mencintaimu, biarlah ini menjadi rahasiaku. Tatapanmu kala itu masih membekas di bayanganku,Suara indah mu masih terdengar sangat merdu ditelingaku. Aku rindu dirimu saat itu, saat kau menatapku, saat kau memujiku. Hatiku yang menyukaimu, biarlah hanya menjadi milikku, rasa rindu yang kini menggebu biarlah menjadi milikku. Kini aku bisa mencintai dirimu, meski tanpa hadirnya dirimu.  <p>"
+              "<h1 class='ucapan'>Selamat Sore!</h1><p class='isiucapan'>Berbahagialah, untuk sekarang biarlah aku disini sendirian menatapmu sebagai teman namun hati ini di penuhi perasaan, percayalah aku turut bahagia karena aku melepasmu kemarin dengan penuh cinta, dia terlalu sempurna beda dengan aku yang tak pernah kau anggap ada.<p>"
+            );
+          } else if (jam == 19 && jam <= 24) {
+            document.write(
+              "<h1 class='ucapan'>selamat malam</h1><p class='isiucapan'>Sejak hari itusampai detik ini sekalipun aku tidak pernah mencoba menghubungi dirimu lagi, walau hanya sekedar menanyakan bagaimana kabarmu, namun aku berdoa semoga di sana kau hidup dengan bahagia walaupun tidak bersamaku<p>"
             );
           } else {
             document.write(
-              "<h1 class='ucapan'>Selamat Malam!</h1><p class='isiucapan'>Aku ingin melihat kamu memenangkan segala hal dalam hidup kamu, aku ingin kamu menggapai semua mimpimu, aku ingin melihat segala usaha yang selalu kamu usahakan membuahkan hasil, aku mau kamu berhasil. Aku penggemar utamamu, selalu menjadi pendukung utama untuk kamu, aku selalu berdoa untuk semua kelancaran dan hal baik di hidup kamu. Aku selalu bangga atas semua pencapain kamu dan aku akan berada disisimu disetiap langkahmu walau dari jauh, kamu akan selalu menjadi yang terhebat <p>"
+              "<h1 class='ucapan'>Tidur udah malem!</h1><p class='isiucapan'><p>"
             );
-          }
           document.write("</center>");
         </script>
       </section>
